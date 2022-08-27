@@ -3,6 +3,7 @@
     --primary: #4f3acf;
     --secondary: #0c2026;
     --text: #5f5f5f;
+    --text-secondary: #C1C1C1;
     --border: #b8b8b8;
     --link: #333;
 }
@@ -32,4 +33,16 @@ main {
     max-width: calc(1136px + 2rem);
     padding: 0 1rem;
     margin: 0 auto;
+}
+h2 {
+    font-size: 2.5rem;
+    
+}
+
+h2 span {
+    color: var(--primary);
+}
+
+p {
+    color: var(--text);
 }
